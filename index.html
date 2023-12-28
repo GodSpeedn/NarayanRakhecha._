@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal profile website</title>
+    <link rel="stylesheet" href="Syle.css">
+    <script src="https://kit.fontawesome.com/f05d919f9b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id ="header">
+
+    <div class="container">
+        <nav > <img  src="Brand_initial_Simple_Logo-removebg-preview.png" class="logo"> 
+        
+            <ul id="sidemenu">
+
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+
+                <i class="fas fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-solid fa-bars " onclick="openmenue()"></i>
+        </nav>
+
+        <div  class="header-text" >  
+            <p>UI/UX Designer</p>
+            <h1>Hi, I am <span>Narayan</span> <br> Rakecha </h1>
+        </div>
+    </div>
+</div>      
+<!---about----->
+<div id="about">
+    <div class="cointainer">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="itacchi.jpeg" alt=""> </div>
+            <div class="about-col-2 "> 
+                <h1 class="sub-title">About Me</h1>
+                <p style="color: grey;" >I'm Narayan Rakhecha, a full-time Cybersecurity student at the University of Wollongong. With a strong work ethic and attention to detail, I'm eager to contribute my skills to a dynamic team and ensure the successful completion of tasks.</p>
+                <div class="tab-titles">
+                    <p class="tab-link active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-link"             onclick="opentab('Experirience')">Experirience </p>
+                    <p class="tab-link"             onclick="opentab('Education')">Education </p>  
+                </div>
+
+
+            <!---Skills----->
+               <div class="tab-contents active-tab" id="skills" >
+                <ul>
+                     <li> <span>UI/Ux</span> <br>Desigining Web/App Interface</li>  
+                     <li> <span>Web Develpment</span> <br>Website Develpment</li>  
+                     <li> <span>Cyber Security</span> <br>Cyber Security</li>  
+                
+                </ul>
+               </div>
+
+            
+            <!---Experience----->
+               <div class="tab-contents" id="Experirience">
+                <ul>
+                     <li> <span>2023-2023</span> <br>Participated in Cybersecurity Program at WorkVentures </li>  
+                     <li> <span>2022-2023</span> <br>Full time student at UOW :)</li>  
+                     <li> <span>Personal</span> <br>Managed my father's business.</li>  
+                
+                </ul>
+               </div>
+
+ 
+                 <!---Education----->
+                 <div class="tab-contents" id="Education">
+                    <ul>
+                         <li> <span>2023-current</span> <br>Bachlors of Computer Science At University of Wollongong </li>  
+                         <li> <span>2022-2023</span> <br>Diploma of IT from University of Wollongong Collage Auatralia</li>  
+                         <li> <span>2020-2022</span> <br>Higher Secondary education from Matoshree jr collage</li>  
+                    
+                    </ul>
+                   </div>
+
+
+    
+            
+            </div>
+        </div>
+    </div>
+</div>
+<!---My Speciality----->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Speciality</h1>
+
+        <div class="services-list">
+            <!---My Speciality 1 (Web Design)--->
+            <div>   
+                <i class="fa-solid fa-code"></i> 
+                <h2>Web Design</h2>
+                <p><br><br><br>
+
+                    I specialize in creating user-friendly and visually appealing websites with responsive designs, ensuring a captivating online presence for businesses and individuals.</p>
+                <a href="#"> Learn More</a>
+            </div>
+
+            <!---My Speciality 2 (Database Management)--->
+            <div> 
+                <i class="fa-solid fa-database"></i>   
+                <h2>Database Management</h2>
+                <p>I've mastered SQL (Structured Query Language) for effective database management, data retrieval, and system organization. I'm eager to apply my SQL skills to optimize data processes and decision-making.</p>
+                <a href="#"> Learn More</a>
+            </div>
+
+        
+            <div>   
+                <i class="fa-solid fa-people-group"></i> 
+                <h2>Cyber Security</h2>
+                <p>
+                    <br><br>
+                    Tech enthusiast, adept at cybersecurity and networking intricacies. I excel in identifying and mitigating threats, securing networks, and navigating IT landscapes. My expertise blends hands-on knowledge with a genuine passion for all things tech.</p>
+                <a href="#"> Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="portfolio">
+    <div class="cointainer">
+
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+
+            <div class="work">
+                <img src="insurance company.png" alt="">
+                <div class="layer">
+                    <h3>Insurance Company </h3>
+                    <p>In a solo university project, I took charge of developing the backend for a car insurance app, showcasing my skills in application design and implementation..</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                </div>
+            </div>
+
+
+            <div class="work">
+                
+                <img src="website.png" alt="">
+
+                <div class="layer">
+                <h3><br>Personal Website</h3>
+                <p>The page you're currently on is a platform that allows me to connect with a broader audience, showcase my skills to potential employers, and function as a digital resume website.</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            
+            </div>
+
+               
+            </div>
+
+            <div class="work">
+                <img src="Ecom website.png" alt="">
+                <div class="layer">
+                <h3><br><br>Ecommerse website</h3>
+                <p>I built an e-commerce website using Shopify's platform, creating an efficient online store for products and secure payment processing. It's a convenient solution for e-commerce businesses.</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                   
+            
+            </div>
+            </div>
+
+
+
+
+
+        </div>
+         <a href="#" class="btn"> see more</a>
+
+    </div>
+
+</div>
+
+
+
+   <!---Contwact--->
+
+
+   <div id="contact">
+    <div class="cointainer">
+        <div class="row">
+            <div class="contact-Left">
+                <h1 class="sub-title"> Contact Me</h1>
+                <p> <i class="fa-solid fa-paper-plane"></i>narayanrakhechaau@gmail.com</p>
+                <p> <i class="fa-solid fa-phone"></i>0468528135</p>
+                <div class="socialicons">
+                    
+                    <a href="https://www.instagram.com/narayanrakhecha._/ "> <i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://wa.me/qr/ZPMIESLBLJJSB1"> <i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://www.linkedin.com/in/narayan-rakhecha-1a065a278"> <i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""> <i class="fa-brands fa-square-github"></i></a>
+                </div>
+                <a href="moye moye.pdf" download class="btn btn2"> Download CV</a>
+            </div>
+
+            <div class="contact-Right">
+           <form name="submit-to-google-sheet"> 
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="Message" rows="6 " placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2"> Submit</button>
+
+           </form>
+           <span id="msg"> </span>
+
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+   </div>
+
+
+
+
+
+<script>
+    var tabLinks = document.getElementsByClassName("tab-link");
+    var tabContents = document.getElementsByClassName("tab-contents");
+ 
+    function opentab(tabname) {
+       for (var i = 0; i < tabLinks.length; i++) {
+          tabLinks[i].classList.remove("active-link");
+       }
+       for (var i = 0; i < tabContents.length; i++) {
+          tabContents[i].classList.remove("active-tab");
+       }
+       event.currentTarget.classList.add("active-link");
+       document.getElementById(tabname).classList.add("active-tab");
+    }
+
+
+ 
+
+
+
+ </script>
+ 
+ <script>
+    var sidemen = document.getElementById("sidemenu");
+
+    function openmenue(){
+        sidemen.style.right = "0";
+    }
+    function closemenu(){
+        sidemen.style.right = "-200px";
+    }
+ </script>
+
+
+  
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxHk35FoSth1_LbeYMJTSzmElpiC-tEPoG4mbbnErmXKFcV0Fyxyl1mvvvDupqJUxTi/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg= document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => { msg.innerHTML = "Message send sucessfully"
+        setTimeout(function(){
+            msg.innerHTML = " "
+        },5000)
+        form.reset()
+    
+    })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
